@@ -55,8 +55,6 @@ endif
 set number
 " highligt search
 set hls
-
-call plug#begin('~/.vim/plugged')
-
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+" enable syntax highligh
+syntax on
 
